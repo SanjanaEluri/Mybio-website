@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title> myself</title>
+        <link rel="stylesheet" href="bio.css">
+        <meta name="viewport"content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fbc58722b1.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+<section id="banner">
+   <! <img src="sanjana.jpg" class="logo">
+     <!--hello-->
+    <div class="banner-text">
+       <h1> iam sanjana.E</h1>
+        <p>
+            pursuing my btech in computer science and information technology in KLU
+        </p>
+    </div>
+</section>
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="#sports">Sports</a></li>
+            <li><a href="#Arts">Arts</a></li>
+            <li><a href="#music">music</a></li>
+            <li><a href="#nature">nature</a></li>
+        </ul>
+    </nav>
+</div>
+    
+      
+   <div id="menuBtn">
+    <img src="menu2.png" id="menu">
+   </div>
+   <!-----sports----->
+   <section id="sports">
+    <div class="title-text">
+        <h1>sports</h1>
+        <p>cricket</p>
+    </div>
+    <div class="sports-img">
+        <img src="smriti.jpg">
+    </div>
+    <div class="sports1-img">
+        <p>
+            badminton
+        </p>
+        <img src="badminton.jpg">
+
+    </div>
+   </section>
+   <section id="Arts">
+    <div class="title-text">
+        <h1>pencil sketches</h1>
+    </div>
+    <div class="arts-img">
+        <img src="drawing.jpg">
+    </div>
+    <div class="arts-img1">
+        <img src="ram.jpg">
+        <img src="flute.jpg">
+    </div>
+   </section>
+   <section id="music">
+    <div class="title-text">
+        <h1>music</h1>
+        <p>aerophile</p>
+    </div>
+    <div class="music-img">
+        <img src="music.jpg">
+    </div>
+    
+   </section>
+   <section id="nature">
+    <div class="title-text">
+        <h1>Green Panther</h1>
+    </div>
+    <div class="nature-img">
+        <img src="nature.jpg">
+    </div>
+  
+   </section>
+   <section id="contact">
+    <div class="title-text">
+        <p>Contact</p>
+       
+    </div>
+    <div class="contact-row"> 
+        <div class="contact-right"> 
+            <h1>Get in touch</h1>
+            <p>sanjananagamani2004@gmail.com <i class="fa fa-paper-plane">
+
+            </i>
+            </p>
+
+    </div>
+    </div>
+    <div class="social links">
+        <i class="fa-brands fa-facebook fa-flip"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa-brands fa-square-twitter fa-beat"></i>
+    </div>
+   </section>
+   
+   <script>
+    var menuBtn=document.getElementById("menuBtn")
+    var sideNav=document.getElementById("sideNav")
+    var menu=document.getElementById("menu")
+    menuBtn.onclick=function()
+    {
+        if(sideNav.style.right=="-250px"){
+            sideNav.style.right="0";
+
+        }
+        else{
+            sideNav.style.right="-250px";
+        }
+    }
+
+    </script>
+    </body>
+</html>

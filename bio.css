@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Kaushan Script', cursive;
+}
+#banner{
+    
+    
+    background-image:url("hdimage1.jpeg");
+   
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+}
+.logo{
+    width:140px;
+    position:absolute;
+    top:4%;
+    left:1%;
+}
+.banner-text{
+
+    text-align:center;
+    color:rgb(0, 191, 255);
+    padding-top: 180px;
+
+}
+.banner-text h1{
+    font-size: 30px;
+    font-style: font-family, 'Lobster Two', cursive;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style:italic;
+    
+}
+#sideNav{
+    width:250px;
+    height:100vh;
+    position:fixed;
+    right:0;
+    top:0;
+    background:rgb(153, 0, 92);
+    z-index:2;
+}
+nav ul li{
+    list-style:none;
+    margin:50px 20px;
+}
+nav ul a{
+    text-decoration:none;
+    color:#fff
+}
+#menuBtn{
+    width:50px;
+    height:50px;
+    background:#ffffff;
+    text-align:center;
+    position:fixed;
+    right:30px;
+    top:20px;
+    border-radius:3px;
+    z-index:3;
+    cursor:pointer;
+}
+#menuBtn img{
+    width:50px;
+    margin-top:15px;
+}
+/*sports*/
+#sports{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text p{
+margin:auto;
+font-size:20px;
+color:rgb(223, 18, 152);
+
+}
+
+.title-text h1{
+    font-size: 50px;
+    color:rgb(16, 39, 39);
+    text-align: center;
+}
+
+.sports-img{
+    flex-basis:50%;
+    margin:auto;
+}
+
+.sports1-img{
+    flex-basis:50%;
+    margin:auto;
+}
+.sports1-img img{
+    width:40%;
+}
+.sports1-img p{
+    color:darkmagenta;
+
+}
+#Arts{
+    width: 100%;
+    padding:70px 0;
+}
+.arts-img{
+    flex-basis:50%;
+    margin:auto;
+}
+.title-text h1{
+    font-size: 50px;
+    color:rgb(16, 39, 39);
+    text-align: center;
+}
+.arts-img img{
+    width:50%;
+    border-radius: 10px;
+}
+.arts-img1 img{
+width:50%;
+}
+#Arts{
+    width: 100%;
+    padding: 70px 0; 
+}
+.title-text h1{
+    font-size: 50px;
+    color:rgb(16, 39, 39);
+    text-align: center;
+}
+#nature{
+    width: 100%;
+    padding:70px 0; 
+}
+.nature-img{
+    flex-basis:50%;
+    margin:auto; 
+}
+.title-text h1{
+    font-size: 50px;
+    color:rgb(16, 39, 39);
+    text-align: center;
+}
+.nature-img img{
+   width:50%;
+}
+#contact{
+    padding:100px 0 20px;
+    background: #efefef;
+}
+.title-text p{
+    font-size: 50px;
+    color:rgb(16, 39, 39);
+    text-align: center;
+}
+.contact-row{
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.contact-right{
+    flex-basis:45%;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.contact-right h1{
+    font-size: 40px;
+    color:rgba(32, 42, 44, 0.312);
+}
